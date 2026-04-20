@@ -171,7 +171,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     gap: 40px;
 
     max-width: 1200px;
-    margin: 120px auto;
+    margin: -30px auto 120px;
     padding: 0;
 }
 
@@ -202,8 +202,8 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     flex-direction: column;
     align-items: center;
 
-    width: 80%;
-    padding: 40px 20px;
+    width: 100%;
+    padding: 20px 20px;
 
     color: white;
 
@@ -218,10 +218,11 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
 .period-cards {
     display: flex;
     align-items: center;
-    gap: 40px;
+    justify-content: center;
+    gap: 130px;
 
     width: 90%;
-    margin: 40px 0;;
+    margin: 20px 0;
 }
 
 .card {
@@ -229,7 +230,8 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     flex-direction: column;
     align-items: center;
 
-    width: 50%;
+    width: 500px;
+    min-width: 300px;
     height: auto;
 
     background-color: #D27E65;
