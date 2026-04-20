@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+
+        <!-- Title -->
+        <title>Miranda Fröderberg - UX Designer</title>
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav class="nav-container">
+            <nav class="nav-box">
+
+                <a href="" class="logo">MIRANDA FRÖDERBERG</a>
+                
+                <ul class="nav-links">
+                    <li class="dropdown">
+                        <button class="dropdown-toggle" id="work">MY WORK</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="UnderbaraUnge/">RE:DESIGN</a></li>
+                            <li><a href="Lia/">EDGE CASE STUDY</a></li>
+                            <li><a href="Eventure/">CONCEPT PROJECT</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="about" href="about/">ABOUT ME</a></li>
+                    <li><a id="contact" href="contact/">CONTACT</a></li>
+                </ul>
+            </nav>
+        </nav>
+
+        <!-- Hero section -->
+        <div class="hero-background">
+            <header class="hero-container">
+
+                <div class="hero-text">
+                    <p class="student">STUDENT</p>
+                    <h1>UX DESIGNER</h1>
+                    <p class="introduction">
+                        Passionate about accessible and inclusive experiences
+                    </p>
+                </div>
+
+            </header>
+        </div>
+
+        <!-- Work section -->
+        <section class="work" id="work">
+            <nav class="work-nav">
+                <a href="#projects" class="work-btn">
+                    <h2>MY WORK</h2>
+                    <img src="img/Arrow-Down-1--Streamline-Ultimate.png" alt="" />
+                </a>
+            </nav>
+
+            <div class="projects-container" id="projects">
+                <div class="project-section">
+                    <div class="project-content">
+                        <h3 class="project-title"><strong>|</strong>RE:DESIGN</h3>
+                        <p class="project-description">Mobile app for documenting a child’s first year through personalized 
+                        photo books</p>
+                    </div>
+                    <div class="project-mockup" id="UnderbaraUnge">
+                        <div class="mockup">
+                            <img src="img/UnderbaraUnge/UU1.png" alt="Mockup 1">
+                            <img src="img/UnderbaraUnge/UU2.0.png" alt="Mockup 2">
+                            <img src="img/UnderbaraUnge/UU3.png" alt="Mockup 3">
+                            <img src="img/UnderbaraUnge/UU4.png" alt="Mockup 4">
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <div class="project-content">
+                        <h3 class="project-title"><strong>|</strong>EDGE CASE STUDY</h3>
+                        <p class="project-description">Mobile web platform for managing internship applications, 
+                            enabling users to track status and sign agreements</p>
+                    </div>
+                    <div class="project-mockup" id="Lia">
+                        <div class="mockup">
+                            <img src="img/Lia/LIA1.png" alt="Mockup 1">
+                            <img src="img/Lia/LIA2.png" alt="Mockup 2">
+                            <img src="img/Lia/LIA3.png" alt="Mockup 3">
+                            <img src="img/Lia/LIA4.png" alt="Mockup 4">
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="project-section">
+                    <div class="project-content">
+                        <h3 class="project-title"><strong>|</strong>CONCEPT PROJECT</h3>
+                        <p class="project-description">Event discovery platform helping users find 
+                            and explore local events</p>
+                    </div>
+                    <div class="project-mockup" id="Eventure">
+                        <div class="mockup">
+                            <img src="img/Eventure/Eventure1.png" alt="Mockup 1">
+                            <img src="img/Eventure/Eventure2.png" alt="Mockup 2">
+                            <img src="img/Eventure/Eventure3.png" alt="Mockup 3">
+                            <img src="img/Eventure/Eventure4.png" alt="Mockup 4">
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    
+    
+    
+    <script>
+        const toggle = document.querySelector('.dropdown-toggle');
+        const dropdown = document.querySelector('.dropdown');
+
+        toggle.addEventListener('click', function(e) {
+            e.preventDefault(); // stoppar navigation
+            dropdown.classList.toggle('open');
+        });
+
+        // stäng om man klickar utanför
+        document.addEventListener('click', function(e) {
+            if (!dropdown.contains(e.target)) {
+                dropdown.classList.remove('open');
+            }
+        });
+        </script>
+    <!-- Footer -->
+</html>
