@@ -189,7 +189,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 100px;
 
     max-width: 1200px;
     margin: -30px auto 120px;
@@ -210,7 +210,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     display: flex;
     align-items: center;
 
-    gap: 20px;
+    gap: 25px;
 }
 
 .contact-icons img {
@@ -244,6 +244,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
     width: 90%;
     margin: 20px 0;
+    font-size: 18px;
 }
 
 .card {
