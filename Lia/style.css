@@ -170,18 +170,25 @@ h1, .logo, .nav-links, .container h3 {
 
 
 .return-btn {
-    width: 100vw;
+    width: 100%;
     max-width: 1600px;
-    padding: 0 0 50px;
+    margin: 0 auto;
+    padding: 0 20px 50px;
+    box-sizing: border-box;
 
     justify-self: center;
 }
 
 .return-btn img {
-    transform: rotate(90deg);
+    width: 24px;
+    height: auto;
+    display: block;
+    transition: transform 0.2s ease;
 }
 
-
+.return-btn img:hover {
+    transform: scale(1.2);
+}
 
 
 .header {

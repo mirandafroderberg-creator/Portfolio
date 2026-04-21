@@ -321,7 +321,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 }
 
 .work-nav img {
-    height: 20px;
+    height: auto;
     width: 40px;
 }
 
