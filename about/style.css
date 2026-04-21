@@ -229,17 +229,21 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
 .about {
     width: 75%;
+    margin-bottom: 40px;
+    
+    
 }
 
 .courses {
     width: 100%;
+    
 }
 
 .text {
     border-radius: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.3);
 
     padding: 10px 20px
     
@@ -255,7 +259,7 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
     border-radius: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.3);
 
     padding: 10px 20px
 }
