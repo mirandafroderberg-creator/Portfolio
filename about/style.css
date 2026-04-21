@@ -228,7 +228,7 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 }
 
 .about {
-    width: 100%;
+    width: 75%;
 }
 
 .courses {
@@ -243,7 +243,10 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
     padding: 10px 20px
     
+}
 
+.text p {
+    line-height: 1.5;
 }
 
 .list-container {
