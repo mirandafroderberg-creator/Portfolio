@@ -40,21 +40,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     
 }
 
-.logo::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    width: 0;
-    height: 4px;
-    background-color: #E56C47;
-    
-}
 
-
-.logo:hover::after {
-   width: 100%;
-}
 
 .nav-links{
     display: flex;
@@ -106,6 +92,49 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 
 .dropdown-toggle:hover {
     text-decoration: underline;
+    text-decoration-color: #E56C47;
+    text-underline-offset: 8px;
+}
+.dropdown-toggle::after {
+       content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: #E56C47;
+    transition: width 0.3s ease;
+    }
+
+.dropdown-menu {
+    position: absolute;
+    top: 110%;
+    left: -30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background: white;
+    padding: 20px 16px 12px 12px;
+
+    font-size: 28px;
+    list-style: none;
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    position: relative;
+    background: none;
+    border: none;
+    font: inherit;
+    color: black;
+    padding: 0;
+}
+
+.dropdown-toggle:hover {
+    text-decoration: underline;
      text-decoration-color: #E56C47;
     text-underline-offset: 8px;
 }
@@ -135,6 +164,39 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     font-size: 28px;
     list-style: none;
 
+    transform-origin: top;
+
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown-menu a {
+    white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto
+}
+
+.dropdown.open .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.dropdown::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 15px;
+}
 
     transform-origin: top;
 
@@ -302,7 +364,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 
     width: 100%;
     margin: 0 auto;
-    /* BR */
+    border-radius: 5px;
 }
 
 .mockup {

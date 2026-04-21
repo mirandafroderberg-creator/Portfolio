@@ -39,6 +39,27 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     text-decoration: none;
 }
 
+.logo {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 4px;
+    background-color: #E56C47;
+    
+}
+
+.logo:hover::after {
+    width: 100%;
+}
+
 .nav-links{
     display: flex;
     gap: 40px;
