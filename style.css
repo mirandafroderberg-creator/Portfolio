@@ -301,7 +301,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     align-items: center;
     gap: 0px;
 
-    margin: 50px auto;
+    margin: 0px auto;
 }
 
 .work-btn {
@@ -316,6 +316,8 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 .work-nav h2 {
     font-size: 34px;
     font-weight: 200;
+    margin-bottom: 10px;
+
 }
 
 .work-nav img {
