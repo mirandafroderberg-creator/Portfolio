@@ -23,7 +23,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 
 .nav-box {
     width: 100%;
-    max-width: 2150px;
+    max-width: 1600px;
     padding: 0 20px;
 
     display: flex;
@@ -248,7 +248,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 
 .hero-container {
     width: 100%;
-    max-width: 2150px;
+    max-width: 1600px;
     margin: 0;
 }
 

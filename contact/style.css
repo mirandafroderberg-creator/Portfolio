@@ -223,8 +223,9 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     flex-direction: column;
     align-items: center;
 
-    width: 100%;
+    width: 99%;
     padding: 20px 20px;
+    box-sizing: border-box;
 
     color: white;
 
@@ -239,8 +240,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
 .period-cards {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 130px;
+    justify-content:space-between;
 
     width: 90%;
     margin: 20px 0;
@@ -251,17 +251,39 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-wrap: nowrap;
 
-    width: 500px;
-    min-width: 300px;
+    width: 45%;
     height: auto;
+
+    padding: 2px 10px;
+    box-sizing: border-box;
 
     background-color: #D27E65;
     border-radius: 20px;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
 
-@media (max-width: 820px) { /* IPAD */
+.card p{
+    font-size: 24px;
+}
+
+.card h2{
+    font-size: 42px;
+}
+
+@media (max-width: 1030px) {
+
+    .internship-container {
+        padding: 20px 15px;
+    }
+
+    .card h2{
+    font-size: 36px;
+    }
+}
+
+@media (max-width: 840px) { /* IPAD */
 
     .nav-box {
         padding: 0 20px;
@@ -276,26 +298,58 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
         gap: 20px;
     }
 
-    .connect-title {
+    .connect-title h1 {
+        font-size: 34px;
+    }
+
+    .contact-icons {
+        gap: 20px;
+    }
+
+    .contact-icons img {
+        width: 35px;
+    }
+
+    .internship-container {
+        padding: 20px 10px;
+    }
+
+    .internship-container h2 {
         font-size: 36px;
     }
 
     .period-cards {
-        width: 100%;
-        gap: 20px;
+        width: 98%;
     }
 
     .card p{
         font-size: 24px;
     }
 
-    .card h3{
+    .card h2{
         font-size: 32px;
     }
 
     
 }
 
+@media (max-width: 720px) {
+
+    .internship-container {
+        padding: 20px 5px;
+    }
+
+    .period-cards {
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .card {
+        align-items: center;
+        width: 90%;
+    }
+}
 
 @media (max-width: 620px) { /* PHONE */
     .nav-box .logo {
@@ -331,7 +385,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
         font-size: 18px;
     }
 
-    .card h3{
-        font-size: 26px;
+    .card h2{
+        font-size: 22px;
     }
 }
