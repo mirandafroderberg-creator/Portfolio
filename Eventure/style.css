@@ -117,14 +117,15 @@ h1, .logo, .nav-links, .container h3 {
 .dropdown-menu {
     position: absolute;
     top: 100%;
-    left: -4px;
+    left: -30px;
 
     display: flex;
     flex-direction: column;
     gap: 10px;
 
     background: white;
-    padding: 20px 4px 10px 4px;
+    padding: 20px 16px 12px 12px;
+
 
     font-size: 28px;
     list-style: none;

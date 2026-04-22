@@ -337,19 +337,22 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     z-index: 2;
 
     opacity: 0;
-    transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease 0.2s;
 
     pointer-events: none;
 }
 
 .project-mockup:hover .view-project {
-    opacity: 1;
+   opacity: 1;
 }
 
 .view-project span {
     background: rgba(0, 0, 0, 0.80);
     padding: 14px 24px;
     border-radius: 8px;
+
+    
+    
 }
 
 
