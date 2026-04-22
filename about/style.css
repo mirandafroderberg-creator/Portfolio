@@ -260,6 +260,10 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
 .list-container {
     display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
 
     border-radius: 20px;
     border-style: solid;
@@ -269,7 +273,13 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
     padding: 10px 20px
 }
 
+.list {
+    flex: 1;
+   
+}
+
 .list h3 {
+    margin-bottom: 10px;
     font-size: 22px;
 }
 
