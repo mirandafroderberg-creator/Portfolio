@@ -301,8 +301,18 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
         gap: 20px;
     }
 
+    .dropdown-menu {
+        top: 110%;
+        left: -20px;
+
+        padding: 20px 12px 12px 10px;
+
+        font-size: 26px;
+    }
+
     .connect-title h1 {
-        font-size: 34px;
+        font-size: 32px;
+        margin-top: 60px;
     }
 
     .contact-icons {
@@ -337,6 +347,15 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
 }
 
 @media (max-width: 720px) {
+
+    .dropdown-menu {
+        top: 120%;
+        left: -20px;
+
+        padding: 12px 10px 8px 8px;
+
+        font-size: 18px;
+    }
 
     .internship-container {
         padding: 20px 5px;

@@ -212,7 +212,7 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 }
 
 .main {
-    width: 70vw;
+    width: 90vw;
     max-width: 1600px;
     margin: 0px auto 140px;
 
@@ -232,16 +232,12 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
 .about {
     width: 75%;
-    margin-bottom: 40px;
-
-
-    
-    
+    margin-bottom: 40px; 
 }
 
 .courses {
-    width: 100%;
-    
+    width: 75%;
+    margin-bottom: 40px; 
 }
 
 .text {
@@ -251,7 +247,6 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
     border-color: rgba(0, 0, 0, 0.3);
 
     padding: 10px 20px
-    
 }
 
 .text p {
@@ -260,9 +255,8 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
 .list-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 40px;
-    max-width: 1000px;
     margin: 0 auto;
 
     border-radius: 20px;
@@ -273,14 +267,28 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
     padding: 10px 20px
 }
 
-.list {
-    flex: 1;
-   
+.list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list li::before {
+    content: "•";
+    color: #E56C47;
+    margin-right: 8px;
+    font-size: 26px;
+    justify-self: center;
+    align-self: center;
 }
 
 .list h3 {
     margin-bottom: 10px;
-    font-size: 22px;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+.list li {
+    white-space: nowrap;
 }
 
 
@@ -299,26 +307,62 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
         gap: 20px;
     }
 
+    .dropdown-menu {
+        top: 110%;
+        left: -20px;
+
+        padding: 20px 12px 12px 10px;
+
+        font-size: 26px;
+    }
+
     .hero-container h1 {
         font-size: 36px;
     }
 
+    .main {
+        width: 100%;
+        max-width: 1600px;
+    }
+
+    .main h2{
+        font-size: 28px;
+    }
+
+    .main strong {
+        font-size: 32px;
+        padding-right: 5px;
+    }
+
+    .about {
+        width: 90%;
+        margin-bottom: 40px; 
+    }
 
     .text {
         padding: 5px 20px;
-        font-size: 22px;
+        font-size: 20px;
+    }
+
+    .text p {
+        line-height: 1.6;
+    }
+
+    .courses {
+        width: 90%;
+        margin-bottom: 40px; 
     }
 
     .list-container {
-        display: flex;
-        flex-direction: column;
-
-        padding: 5px 20px
+        padding: 5px 20px;
+        gap: 0px;
+        font-size: 20px;
     }
 
     .list h3 {
         font-size: 20px;
     }
+
 }
 
 
@@ -332,17 +376,51 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
         gap: 10px;
     }
 
+        .dropdown-menu {
+        top: 120%;
+        left: -20px;
+
+        padding: 12px 10px 8px 8px;
+
+        font-size: 18px;
+    }
+
     .hero-container h1 {
-        font-size: 32px;
+        font-size: 22px;
         text-align: center;
     }
 
+    .hero-container img {
+        width: 90px;
+        height: auto;
+    }
+
+    .main h2{
+        font-size: 24px;
+    }
+
+    .main strong { /*Orangea "|"*/
+        font-size: 26px;
+        padding-right: 3px;
+    }
+
+    .about {
+        width: 90%;
+        margin-bottom: 20px; 
+    }
+
     .text {
-        padding: 0px 20px;
-        font-size: 20px;
+        padding: 0px 15px;
+        font-size: 18px;
     }
 
     .list-container {
-        padding: 0px 15px
+        gap: 0px;
+        padding: 0px 15px;
+        font-size: 18px;
+    }
+
+    .list h3 {
+        font-size: 18px;
     }
 }
