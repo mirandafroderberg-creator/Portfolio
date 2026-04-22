@@ -148,6 +148,9 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     pointer-events: none;
 
     transition: opacity 0.3s ease, transform 0.3s ease;
+
+    border-radius: 3px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-menu a {
@@ -265,11 +268,11 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
 }
 
 .card p{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .card h2{
-    font-size: 42px;
+    font-size: 34px;
 }
 
 @media (max-width: 1030px) {

@@ -153,6 +153,9 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
     pointer-events: none;
 
     transition: opacity 0.3s ease, transform 0.3s ease;
+
+    border-radius: 3px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-menu a {
