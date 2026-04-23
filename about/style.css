@@ -231,12 +231,12 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 }
 
 .about {
-    width: 75%;
+    width: 70%;
     margin-bottom: 40px; 
 }
 
 .courses {
-    width: 75%;
+    width: 80%;
     margin-bottom: 40px; 
 }
 
@@ -255,9 +255,11 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
 .list-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 40px;
     margin: 0 auto;
+
+    justify-content: center;
 
     border-radius: 20px;
     border-style: solid;
@@ -270,6 +272,11 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 .list ul {
     list-style: none;
     padding-left: 0;
+}
+
+.list {
+    flex: 1;
+    min-width: 0;
 }
 
 .list li::before {
