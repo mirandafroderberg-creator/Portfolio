@@ -355,13 +355,21 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 .view-project span {
     background: rgba(0, 0, 0, 0.80);
     padding: 14px 24px;
-    border-radius: 8px;
-
-    
-    
+    border-radius: 8px;   
 }
 
+.pink-theme .project-title strong {
+    color: #AD596B;
+}
 
+.blue-theme strong {
+    color: #3A61AA;
+
+}
+
+.purple-theme .project-title strong {
+    color: #23253F;
+}
 
 @media (max-width: 1435px) { /* MacBook */
 
