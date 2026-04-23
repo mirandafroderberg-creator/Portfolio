@@ -260,6 +260,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 
 .project-content {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .project-title {
