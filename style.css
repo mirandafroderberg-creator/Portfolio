@@ -378,7 +378,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 @media (max-width: 1435px) { /* MacBook */
 
     .hero-background {
-        background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(242, 181, 163, 1) 15%, rgba(229, 108, 71, 1) 40%);
+        background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(242, 181, 163, 1) 16%, rgba(229, 108, 71, 1) 45%);
         min-height: 50vh;
         padding: 20px;
     }
