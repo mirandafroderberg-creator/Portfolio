@@ -148,7 +148,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
 
     padding: 40px;
 }
