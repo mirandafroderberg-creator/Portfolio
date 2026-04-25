@@ -375,12 +375,32 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
 @media (max-width: 620px) { /* PHONE */
     .nav-box .logo {
-        font-size: 24px;
+    font-size: 18px;
     }
 
     .nav-links {
-        font-size: 18px;
+        font-size: 16px;
+        gap: 15px;
+        margin-left: auto;
+        width: auto;
+        display: flex;
+    }
+
+     .nav-box {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
         gap: 10px;
+        padding: 0 10px;
+    }
+
+     .dropdown-menu {
+        top: 120%;
+        left: -20px;
+
+        padding: 12px 10px 8px 8px;
+
+        font-size: 16px;
     }
 
     .internship-container {
@@ -388,7 +408,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     }
 
     .internship-container h2 {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .period-cards {
@@ -403,11 +423,29 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
         width: 90%;
     }
 
+   
     .card p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .card h2{
         font-size: 22px;
+    }
+
+    
+        .connect-title h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-icons {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .contact-icons img {
+        width: 20px;
+        height: auto;
     }
 }

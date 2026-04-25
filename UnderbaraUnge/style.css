@@ -349,12 +349,23 @@ h1, .logo, .nav-links, .container h3 {
 
 @media (max-width: 620px) { /* lite större än PHONE */
     .nav-box .logo {
-    font-size: 24px;
+    font-size: 18px;
     }
 
     .nav-links {
-        font-size: 18px;
+        font-size: 16px;
+        gap: 15px;
+        margin-left: auto;
+        width: auto;
+        display: flex;
+    }
+
+    .nav-box {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
         gap: 10px;
+        padding: 0 10px;
     }
 
     .dropdown-menu {
@@ -363,11 +374,17 @@ h1, .logo, .nav-links, .container h3 {
 
         padding: 12px 10px 8px 8px;
 
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .return-btn img {
-        width: 30px;
+        width: 20px;
+        
+    }
+
+    .return-btn {
+    margin-left: 0;
+    padding-left: 10px;
     }
 
 
@@ -376,11 +393,21 @@ h1, .logo, .nav-links, .container h3 {
     }
 
     .container h3 {
-        font-size: 24px;
+        font-size: 22px;
     }
+
+    .container h3 strong {
+    font-size: 22px;
+    }
+
 
     .container p {
         font-size: 18px;
+    }
+
+   
+    .original-img img {
+    width: 23%;
     }
 
     .mockup {
@@ -389,6 +416,6 @@ h1, .logo, .nav-links, .container h3 {
     }
 
     .mockup img {
-        width: 12%;
+        width: 14%;
     }
 }
