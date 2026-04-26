@@ -379,15 +379,19 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
 @media (max-width: 620px) { /* PHONE */
     .nav-box .logo {
-    font-size: 18px;
+    font-size: 24px;
     }
 
     .nav-links {
-        font-size: 16px;
+        font-size: 22px;
         gap: 15px;
         margin-left: auto;
         width: auto;
         display: flex;
+    }
+
+           .dropdown {
+        display: none;
     }
 
      .nav-box {
@@ -409,7 +413,7 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
     }
 
     .hero-container h1 {
-        font-size: 22px;
+        font-size: 24px;
         text-align: center;
     }
 
@@ -418,12 +422,15 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
         height: auto;
     }
 
+
+
     .main h2{
-        font-size: 24px;
+        font-size: 22px;
+        
     }
 
     .main strong { /*Orangea "|"*/
-        font-size: 26px;
+        font-size: 22px;
         padding-right: 3px;
     }
 

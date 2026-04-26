@@ -349,16 +349,20 @@ h1, .logo, .nav-links, .container h3 {
 
 @media (max-width: 620px) { /* lite större än PHONE */
     .nav-box .logo {
-    font-size: 18px;
+    font-size: 24px;
     }
 
     .nav-links {
-        font-size: 16px;
+        font-size: 22px;
         gap: 15px;
         margin-left: auto;
         width: auto;
         display: flex;
     }
+
+           .dropdown {
+        display: none;
+        }
 
     .nav-box {
         flex-direction: row;

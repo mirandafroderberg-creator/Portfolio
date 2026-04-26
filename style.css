@@ -473,12 +473,12 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     }
 
     .hero-background {
-        min-height: 60vh;
+        min-height: 50vh;
         padding: 20px;
     }
 
     .hero-container {
-    min-height: 60vh;
+    min-height: 50vh;
     display: flex;
     align-items: flex-end;
     padding-bottom: 10px;
