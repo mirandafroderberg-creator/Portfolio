@@ -434,15 +434,21 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 
 @media (max-width: 620px) { /* lite större än PHONE */
     .nav-box .logo {
-    font-size: 18px;
+    font-size: 24px;
     }
 
     .nav-links {
-        font-size: 16px;
+        font-size: 22px;
         gap: 15px;
         margin-left: auto;
         width: auto;
         display: flex;
+
+        .dropdown {
+        display: none;
+}
+
+  
        
     }
 
@@ -467,16 +473,25 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     }
 
     .hero-background {
-        min-height: 50vh;
+        min-height: 70vh;
         padding: 20px;
     }
 
+    .hero-container {
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+  
+}
+
     .hero-text .student{
         font-size: 14px;
+        padding-bottom: 5px;
     }
 
     .hero-text h1{
-        font-size: 72px;
+        font-size: 48px;
     }
 
     .hero-text .introduction{
@@ -491,7 +506,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     }
 
     .work-nav {
-        margin: 20px auto 50px;
+        margin: 20px auto 30px;
     }
 
     .work-nav h2 {
@@ -526,7 +541,6 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     .project-title strong {
     font-size: 22px;
     }
-
- 
 }
+ 
 
