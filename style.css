@@ -295,6 +295,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
     transform: scale(1.05);
 }
 
+
 .mockup {
     width: 90%;
     height: auto;
@@ -401,7 +402,7 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 
 }
 
-@media (max-width: 820px) { /* IPAD */
+@media (max-width: 1024px) { /* IPAD */
 
     .nav-box .logo {
         font-size: 36px;
@@ -496,8 +497,8 @@ h1, .logo, .nav-links, .work-nav, .project-title {
 
     .hero-text .introduction{
         font-size: 18px;
-        
         margin: 10px 0px;
+        
     }
 
     .work {

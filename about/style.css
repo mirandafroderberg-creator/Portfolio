@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
@@ -53,6 +54,7 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
     width: 0;
     height: 4px;
     background-color: #E56C47;
+    
     
 }
 
@@ -199,7 +201,7 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 }
 
 .hero-container {
-    padding: 60px auto;
+    padding: 60px 0;
 
     display: flex;
     flex-direction: column;
@@ -300,7 +302,10 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 }
 
 
-@media (max-width: 820px) { /* IPAD */
+@media (max-width: 1024px) { /* IPAD */
+
+  
+
 
     .nav-box {
         padding: 0 20px;
@@ -368,11 +373,12 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
         font-size: 20px;
     }
 
-   
+
 
     .list h3 {
         font-size: 20px;
     }
+
 
 }
 
@@ -438,6 +444,19 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
         width: 90%;
         margin-bottom: 20px; 
     }
+
+
+    .list-container {
+        gap: 0px;
+        padding: 0px 15px;
+        font-size: 18px;
+        flex-direction: column;
+    }
+
+    .list h3 {
+        font-size: 18px;
+    }
+
 
     .text {
         padding: 0px 15px;

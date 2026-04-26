@@ -54,6 +54,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     height: 4px;
     background-color: #E56C47;
     
+    
 }
 
 .logo:hover::after {
@@ -286,7 +287,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     }
 }
 
-@media (max-width: 840px) { /* IPAD */
+@media (max-width: 1024px) { /* IPAD */
 
     .nav-box {
         padding: 0 20px;
