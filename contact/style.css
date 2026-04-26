@@ -439,8 +439,10 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
     
         .connect-title h1 {
-        font-size: 22px;
+        font-size: 24px;
         text-align: center;
+        margin-top: 80px;
+        margin-bottom: 30px;
     }
 
     .contact-icons {
@@ -450,7 +452,7 @@ h1, .logo, .nav-links, .internship-container h2, .internship-container h3{
     }
 
     .contact-icons img {
-        width: 20px;
+        width: 35px;
         height: auto;
     }
 }

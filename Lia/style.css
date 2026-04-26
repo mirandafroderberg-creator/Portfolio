@@ -426,6 +426,7 @@ h1, .logo, .nav-links, .container h3 {
     .mockup {
         width: 100%;
         padding: 10px 5px;
+        gap: 3%;
     }
 
     .mockup img {

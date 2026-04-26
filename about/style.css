@@ -234,7 +234,8 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
 
 .about {
     width: 70%;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
+    
 }
 
 .courses {
@@ -418,9 +419,19 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
         font-size: 16px;
     }
 
+    .hero {
+    padding: 15px; 
+    }
+
+    .hero-container {
+    padding: 20px 0;
+    gap: 15px;
+    }
+
     .hero-container h1 {
         font-size: 24px;
         text-align: center;
+       
     }
 
     .hero-container img {
@@ -463,14 +474,5 @@ h1, h2, .logo, .nav-links, .internship-container h2, .internship-container h3{
         font-size: 18px;
     }
 
-    .list-container {
-        gap: 0px;
-        padding: 0px 15px;
-        font-size: 18px;
-        flex-direction: column;
-    }
-
-    .list h3 {
-        font-size: 18px;
-    }
+  
 }
